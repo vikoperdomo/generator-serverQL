@@ -1,0 +1,43 @@
+{
+  "name": "generator-serverql",
+  "version": "0.1.0",
+  "description": "Scaffolding project generator for serverless, graphQL and AWS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*test.js --timeout=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikoperdomo/generator-serverQL.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "generator-serverless",
+    "serverless",
+    "lambda",
+    "dynamoDB",
+    "aws",
+    "graphQL",
+    "DynamoDB",
+    "React-Redux",
+    "ApolloClient",
+    "ReactStack"
+  ],
+  "files": [
+    "generators/app",
+    "generators/route",
+    "generators/s3",
+    "generators/schema",
+    "generators/policy"
+  ],
+  "author": "“Viko Perdomo <“vikoperdomo@gmail.com”>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikoperdomo/generator-serverQL/issues"
+  },
+  "homepage": "https://github.com/vikoperdomo/generator-serverQL#readme",
+  "dependencies": {
+    "yeoman-generator": "^2.0.1"
+  }
+}
